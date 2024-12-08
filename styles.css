@@ -9,6 +9,7 @@ body {
     background-color: #f8f8f8;
 }
 
+/* Header */
 .header {
     background-color: #fff;
     padding: 10px 20px;
@@ -33,7 +34,6 @@ body {
 }
 
 .logo {
-    font-family: "Noto Serif", serif;
     font-weight: 500;
     font-size: 20px;
 }
@@ -52,7 +52,6 @@ body {
 .nav ul li a {
     text-decoration: none;
     color: #333;
-    font-family: "Noto Serif", serif;
     font-weight: 500;
     font-size: 15px;
 }
@@ -64,6 +63,7 @@ body {
     margin-left: 15px;
 }
 
+/* Hero Section */
 .hero {
     color: #fff;
     text-align: center;
@@ -78,12 +78,12 @@ body {
 }
 
 .hero-content h2 {
-    font-family: "Noto Serif", serif;
     font-weight: 500;
     font-size: 50px;
     margin-bottom: 20px;
 }
 
+/* Collection Section */
 .collection {
     text-align: left;
     padding: 40px 20px;
@@ -91,7 +91,6 @@ body {
 }
 
 .collection h2 {
-    font-family: "Noto Serif", serif;
     font-weight: 500;
     font-size: 40px;
     margin-bottom: 20px;
@@ -99,7 +98,6 @@ body {
 }
 
 .collection p {
-    font-family: "Noto Serif", serif;
     font-weight: 300;
     font-size: 20px;
     margin-bottom: 20px;
@@ -107,7 +105,7 @@ body {
 }
 
 .collection button {
-    font-family: "Noto Serif", serif;
+    font-family: "Noto Serif", serif; /* Preserved original font */
     font-weight: 500;
     font-size: 20px;
     padding: 15px 30px;
@@ -146,6 +144,7 @@ body {
     margin-bottom: 10px;
 }
 
+/* Membership Section */
 .membership {
     background-color: #fff;
     text-align: center;
@@ -161,7 +160,6 @@ body {
 }
 
 .membership p {
-    font-family: "Noto Serif", serif;
     font-weight: 300;
     font-size: 23px;
     margin-bottom: 20px;
@@ -171,7 +169,7 @@ body {
 }
 
 .membership button {
-    font-family: "Noto Serif", serif;
+    font-family: "Noto Serif", serif; /* Preserved original font */
     font-weight: 500;
     font-size: 20px;
     padding: 15px 30px;
@@ -245,17 +243,15 @@ body {
 }
 
 .events .event h3 {
-    font-family: "Noto Serif", serif;
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 .events .event p {
-    font-family: "Noto Serif", serif;
     font-weight: 300;
     font-size: 18px;
-    color: #96874F;  /* Change the color of the dates */
+    color: #96874F; /* Change the color of the dates */
     margin-bottom: 20px;
     text-align: center;
 }
@@ -312,4 +308,77 @@ body {
 
 .yellow-logo path {
     fill: #96874F;
+}
+
+/* REGISTER AND LOGIN */
+.auth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.auth-container {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 400px;
+}
+
+.auth-container h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.auth-form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.auth-form button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+    background-color: #e6b800;
+}
+
+.auth-footer {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.auth-footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.auth-footer a:hover {
+    text-decoration: underline;
 }

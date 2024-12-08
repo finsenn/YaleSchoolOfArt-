@@ -25,7 +25,7 @@
                     <li><a href="#">Contact</a></li>
                     <li class="icon-button"><a href="#"><img src="/images/search.png" alt="Search Icon"></a></li>
                     <li class="icon-button"><a href="#"><img src="/images/cart.png" alt="Cart Icon"></a></li>
-                    <li class="icon-button"><a href="#"><img src="/images/login.png" alt="Login Icon"></a></li> <!-- Login button -->
+                    <li class="icon-button"><a href="login.php"><img src="/images/login.png" alt="Login Icon"></a></li> <!-- Login button -->
                 </ul>
             </nav>
         </div>
