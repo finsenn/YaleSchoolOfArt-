@@ -23,6 +23,7 @@
                     <li><a href="#">Programs</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
                     <li class="icon-button"><a href="#"><img src="/images/search.png" alt="Search Icon"></a></li>
                     <li class="icon-button"><a href="#"><img src="/images/cart.png" alt="Cart Icon"></a></li>
                     <li class="icon-button"><a href="login.php"><img src="/images/login.png" alt="Login Icon"></a></li> <!-- Login button -->
@@ -41,7 +42,7 @@
     <div class="collection">
         <h2>Explore Our Collection</h2>
         <p>From ancient Greek sculptures to cutting-edge multimedia installations, our gallery showcases a wide range of artistic styles and movements.</p>
-        <button>View All</button>
+        <button onclick="window.location.href='gallery.php'">View Gallery</button>
         <div class="gallery">
             <div class="item classical">
                 <img src="/images/classical.png" alt="Classical Collection" class="item-image">
@@ -72,10 +73,13 @@
                 <p>Every Thursday, 6:00 PM - 7:30 PM</p>
             </div>
             <div class="event">
-                <img src="/images/portofolio-showcase.png" alt="Student Portfolio Showcase Image">
-                <h3>Student Portfolio Showcase</h3>
+                <a href="upload_portfolio.php">
+                    <img src="/images/portofolio-showcase.png" alt="Student Portfolio Showcase Image">
+                </a>
+                <h3><a href="upload_portfolio.php">Student Portfolio Showcase</a></h3>
                 <p>Friday, May 13th, 4:00 PM - 6:00 PM</p>
             </div>
+
         </div>
     </section>
 
