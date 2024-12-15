@@ -130,7 +130,7 @@ body {
 }
 
 .collection .item {
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
     padding: 20px;
     border-radius: 8px;
     width: 375px;
@@ -146,7 +146,11 @@ body {
 
 /* Membership Section */
 .membership {
-    background-color: #fff;
+    background-color: #ffffff;
+    border: 2px dashed #EBC747;
+    border-radius: 8px;
+    color: #333;
+    height: 100%;
     text-align: center;
     padding: 40px 20px;
 }
@@ -288,7 +292,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #333;
+    background-color: #ffffff;
     color: #96874F;
     padding: 20px;
     text-align: center;
@@ -405,7 +409,7 @@ header {
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #96874F;
     color: white;
     border-radius: 5px;
 }
@@ -463,7 +467,7 @@ header p {
 .gallery-item button {
     margin: 10px 0;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #ffcc00;
     color: white;
     border: none;
     border-radius: 5px;
@@ -507,7 +511,7 @@ header p {
 
 .upload-form button {
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #ffcc00;
     color: white;
     border: none;
     border-radius: 5px;
